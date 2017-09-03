@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F02AE7EDD915B88D8EDC784 /* Pods_JiChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8326599D56E39F736852401 /* Pods_JiChat.framework */; };
+		E33D53EF1F4BDD43000FAB8E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D53EE1F4BDD43000FAB8E /* ContactsViewController.swift */; };
+		E33D53F81F4BE7EC000FAB8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D53F71F4BE7EC000FAB8E /* User.swift */; };
+		E33D53FA1F4BEB5B000FAB8E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D53F91F4BEB5B000FAB8E /* UserCell.swift */; };
+		E342D8CC1F4D25FE00EE36A5 /* LoginVCFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342D8CB1F4D25FE00EE36A5 /* LoginVCFunctions.swift */; };
+		E36EF56E1F52760C00FDF9D3 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36EF56D1F52760C00FDF9D3 /* ChatCollectionViewCell.swift */; };
+		E387461D1F4B6A670027C027 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E387461C1F4B6A670027C027 /* GoogleService-Info.plist */; };
+		E391A09B1F4F68FF0054255A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E391A09A1F4F68FF0054255A /* Message.swift */; };
 		E39234121F4B422000525756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39234111F4B422000525756 /* AppDelegate.swift */; };
-		E39234141F4B422000525756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39234131F4B422000525756 /* ViewController.swift */; };
-		E39234171F4B422000525756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39234151F4B422000525756 /* Main.storyboard */; };
+		E39234141F4B422000525756 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39234131F4B422000525756 /* HomeViewController.swift */; };
 		E392341A1F4B422000525756 /* JiChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E39234181F4B422000525756 /* JiChat.xcdatamodeld */; };
 		E392341C1F4B422000525756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E392341B1F4B422000525756 /* Assets.xcassets */; };
 		E392341F1F4B422000525756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E392341D1F4B422000525756 /* LaunchScreen.storyboard */; };
+		E39234271F4B597700525756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39234261F4B597700525756 /* LoginViewController.swift */; };
+		E39234291F4B59EF00525756 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39234281F4B59EF00525756 /* Extensions.swift */; };
+		E392342B1F4B67D200525756 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392342A1F4B67D200525756 /* Gradient.swift */; };
+		E3FE2D4D1F4F2DBD00F53F0A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE2D4C1F4F2DBD00F53F0A /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DB765B131B9496A0DA19CF8 /* Pods-JiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiChat/Pods-JiChat.release.xcconfig"; sourceTree = "<group>"; };
+		841206C664D3237EFF2A4F8D /* Pods-JiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiChat/Pods-JiChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E33D53EE1F4BDD43000FAB8E /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		E33D53F71F4BE7EC000FAB8E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E33D53F91F4BEB5B000FAB8E /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E342D8CB1F4D25FE00EE36A5 /* LoginVCFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCFunctions.swift; sourceTree = "<group>"; };
+		E36EF56D1F52760C00FDF9D3 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		E387461C1F4B6A670027C027 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E391A09A1F4F68FF0054255A /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E392340E1F4B422000525756 /* JiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39234111F4B422000525756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E39234131F4B422000525756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E39234161F4B422000525756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E39234131F4B422000525756 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E39234191F4B422000525756 /* JiChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiChat.xcdatamodel; sourceTree = "<group>"; };
 		E392341B1F4B422000525756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E392341E1F4B422000525756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E39234201F4B422000525756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39234261F4B597700525756 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E39234281F4B59EF00525756 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E392342A1F4B67D200525756 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		E3FE2D4C1F4F2DBD00F53F0A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E8326599D56E39F736852401 /* Pods_JiChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F02AE7EDD915B88D8EDC784 /* Pods_JiChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D402FEA0E9194DF6DC1B0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8326599D56E39F736852401 /* Pods_JiChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AFC0C2B33C86D8FDFE5D5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				841206C664D3237EFF2A4F8D /* Pods-JiChat.debug.xcconfig */,
+				7DB765B131B9496A0DA19CF8 /* Pods-JiChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3100B7D1F4E8C48001B2DA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E33D53F91F4BEB5B000FAB8E /* UserCell.swift */,
+				E36EF56D1F52760C00FDF9D3 /* ChatCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E33D53F51F4BE7B0000FAB8E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E39234131F4B422000525756 /* HomeViewController.swift */,
+				E3FE2D4C1F4F2DBD00F53F0A /* ChatViewController.swift */,
+				E33D53EE1F4BDD43000FAB8E /* ContactsViewController.swift */,
+				E39234261F4B597700525756 /* LoginViewController.swift */,
+				E342D8CB1F4D25FE00EE36A5 /* LoginVCFunctions.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		E33D53F61F4BE7C7000FAB8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E39234281F4B59EF00525756 /* Extensions.swift */,
+				E33D53F71F4BE7EC000FAB8E /* User.swift */,
+				E392342A1F4B67D200525756 /* Gradient.swift */,
+				E391A09A1F4F68FF0054255A /* Message.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		E39234051F4B422000525756 = {
 			isa = PBXGroup;
 			children = (
 				E39234101F4B422000525756 /* JiChat */,
 				E392340F1F4B422000525756 /* Products */,
+				8AFC0C2B33C86D8FDFE5D5F5 /* Pods */,
+				4D402FEA0E9194DF6DC1B0BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +133,13 @@
 			isa = PBXGroup;
 			children = (
 				E39234111F4B422000525756 /* AppDelegate.swift */,
-				E39234131F4B422000525756 /* ViewController.swift */,
-				E39234151F4B422000525756 /* Main.storyboard */,
+				E3100B7D1F4E8C48001B2DA0 /* View */,
+				E33D53F61F4BE7C7000FAB8E /* Models */,
+				E33D53F51F4BE7B0000FAB8E /* VC */,
 				E392341B1F4B422000525756 /* Assets.xcassets */,
 				E392341D1F4B422000525756 /* LaunchScreen.storyboard */,
 				E39234201F4B422000525756 /* Info.plist */,
+				E387461C1F4B6A670027C027 /* GoogleService-Info.plist */,
 				E39234181F4B422000525756 /* JiChat.xcdatamodeld */,
 			);
 			path = JiChat;
@@ -74,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E39234231F4B422000525756 /* Build configuration list for PBXNativeTarget "JiChat" */;
 			buildPhases = (
+				281BDB417D4EFA888E3C4A13 /* [CP] Check Pods Manifest.lock */,
 				E392340A1F4B422000525756 /* Sources */,
 				E392340B1F4B422000525756 /* Frameworks */,
 				E392340C1F4B422000525756 /* Resources */,
+				BD709ADCF487EE2033E28DFA /* [CP] Embed Pods Frameworks */,
+				C4AB13529A454EF3D1ED1D46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,34 +210,84 @@
 			files = (
 				E392341F1F4B422000525756 /* LaunchScreen.storyboard in Resources */,
 				E392341C1F4B422000525756 /* Assets.xcassets in Resources */,
-				E39234171F4B422000525756 /* Main.storyboard in Resources */,
+				E387461D1F4B6A670027C027 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		281BDB417D4EFA888E3C4A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD709ADCF487EE2033E28DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiChat/Pods-JiChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AB13529A454EF3D1ED1D46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiChat/Pods-JiChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E392340A1F4B422000525756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39234141F4B422000525756 /* ViewController.swift in Sources */,
+				E39234291F4B59EF00525756 /* Extensions.swift in Sources */,
+				E39234271F4B597700525756 /* LoginViewController.swift in Sources */,
+				E36EF56E1F52760C00FDF9D3 /* ChatCollectionViewCell.swift in Sources */,
+				E3FE2D4D1F4F2DBD00F53F0A /* ChatViewController.swift in Sources */,
+				E39234141F4B422000525756 /* HomeViewController.swift in Sources */,
 				E392341A1F4B422000525756 /* JiChat.xcdatamodeld in Sources */,
+				E33D53F81F4BE7EC000FAB8E /* User.swift in Sources */,
+				E33D53FA1F4BEB5B000FAB8E /* UserCell.swift in Sources */,
 				E39234121F4B422000525756 /* AppDelegate.swift in Sources */,
+				E392342B1F4B67D200525756 /* Gradient.swift in Sources */,
+				E391A09B1F4F68FF0054255A /* Message.swift in Sources */,
+				E342D8CC1F4D25FE00EE36A5 /* LoginVCFunctions.swift in Sources */,
+				E33D53EF1F4BDD43000FAB8E /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E39234151F4B422000525756 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E39234161F4B422000525756 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E392341D1F4B422000525756 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,6 +394,7 @@
 		};
 		E39234241F4B422000525756 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841206C664D3237EFF2A4F8D /* Pods-JiChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A5GB6MS7YX;
@@ -276,6 +408,7 @@
 		};
 		E39234251F4B422000525756 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB765B131B9496A0DA19CF8 /* Pods-JiChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A5GB6MS7YX;
@@ -306,6 +439,7 @@
 				E39234251F4B422000525756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
